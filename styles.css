@@ -1,0 +1,236 @@
+/* General information */
+body{
+    /* TODO: General style, flex and font */
+    margin:0;
+    font-family: Dosis, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+h1,h2{
+    font-family: Anton,Roboto,sans-serif;
+    font-weight: bolder;
+    margin: 0;
+}
+
+h1{
+    font-size: 42px;
+}
+
+h2{
+    font-size:36px;
+}
+ul{
+    margin:0;
+    list-style-type: none;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* ENDS GENERAL INFORMATION */
+
+
+
+/* HEADER STYLING */
+.header{
+
+    background-color: #304A47;
+    color: #E9F5E0;
+    display: flex;
+    flex-direction: column;
+    gap:42px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 8px;
+}
+
+.logo{
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.links{
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+   
+}
+
+.hero{
+    flex:1;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 42px;
+    gap: 32px;
+}
+
+.intro{
+    margin-left: 200px;
+    flex: 1;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.subtext-intro{
+    width: 500px;
+}
+#main-image{
+background-color: darkgray;
+margin-right: 200px;
+border: 0;
+}
+
+/* ENDS HEADER STYLING */
+
+/* INFORMATION STYLING */
+.information{
+    flex:1;
+    background-color: #f5b512;
+    margin: 0;
+    color: #101918;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 32px 0px;
+    gap:32px;
+}
+
+.deck{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 300px;
+    gap:32px;    
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flash{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #ca3c25;
+    border-radius: 12px;
+    background-color: darkgrey;
+}
+
+/* ENDS INFORMATION STYLING */
+
+/* QUOTE SECTION */
+.quote-container{
+    flex:1;
+    font-family: Inconsolata, sans-serif;
+    background-color: #E9F5E0;
+    color: #101918;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    margin-top: 32px;
+    width: 600px;
+    align-self: center;
+    
+}
+.author{
+    flex: 0;
+    margin-bottom: 32px;
+    text-align: right;
+    margin-right: 40px;
+    
+}
+ /* ENDS QUOTE */
+
+
+/* CALL TO ACTION */
+
+.call-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    
+}
+
+.call{
+    flex:1;
+    flex-wrap: wrap;
+
+    margin:8px 0px;
+    border-radius: 12px;
+
+    width: 800px;
+    background-color: #ca3c25;
+    color: #E9F5E0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 42px 0px;
+    padding: 20px;
+
+}
+
+.message{
+    padding: 16px;
+    flex:1;
+}
+
+/* ENDS CALL TO ACTION */
+
+/* Final tweeks */
+.footer{
+    /*TODO: dedicate Flexing parameter */
+    flex: 1;
+    display: flex;
+    background-color: #304A47;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    font: Inconsolata, sans-serif;
+    background-color: #ca3c25;
+    border-radius: 12px;
+    width:160px;
+    color:#F9FAF8; 
+    padding : 8px 16px ;
+    margin: 16px 0px; 
+
+}
